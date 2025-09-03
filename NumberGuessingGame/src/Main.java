@@ -9,7 +9,12 @@ public class Main {
         int playerCurrentGuess = 0;
         int numOfPlayerGuesses = 0;
 
-    System.out.println("I am thinking of a number between 1 and 100. Try to guess it.");
+        programChosenNum = (int) (100.00 * Math.random());
+
+    System.out.println("I am thinking of a whole number number between 1 and 100. Try to guess it.");
+    System.out.print("Input a whole number, then press enter:");
+    playerCurrentGuess = scnr.nextInt();
+
 
         }
     }
